@@ -9,7 +9,7 @@ theme = "anatole"
 title = "Accessibility → Up to 11!"
 author = "Dani Devesa"
 description = "Dani Devesa"
-profilePicture = "images/myself.jpg"
+profilePicture = "images/jobs.jpg"
 keywords = ""
 
 
@@ -17,7 +17,7 @@ keywords = ""
 [[params.socialIcons]]
 icon = "fa-twitter"
 title = "Twitter"
-url = "https://twitter.com/dadederk"
+url = "https://twitter.com/hexagrimoire"
 
 [[params.socialIcons]]
 icon = "fa-medium"
@@ -32,17 +32,12 @@ url = "https://www.linkedin.com/in/danieldevesa/"
 [[params.socialIcons]]
 icon = "fa-github"
 title = "GitHub"
-url = "https://github.com/dadederk/"
-
-## [[params.socialIcons]]
-## icon = "fa-stackoverflow"
-## title = "Stackoverflow"
-## url = "https://stackoverflow.com/users/1336597/dadederk"
+url = "https://github.com/hexagrimoire"
 
 [[params.socialIcons]]
 icon = "fa-instagram"
 title = "instagram"
-url = "https://www.instagram.com/dadederk/"
+url = "https://www.instagram.com/hexagrimoire/"
 
 ## Menu items
 
@@ -70,4 +65,4 @@ url = "https://www.instagram.com/dadederk/"
   name = "RSS"
   weight = 400
   identifier = "rss"
-  url = "https://dadederk.github.io/index.xml"
+  url = "https://hexagrimoire.github.io/index.xml"

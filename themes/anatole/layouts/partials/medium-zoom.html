@@ -1,9 +1,7 @@
-{{ $enableMediumZoom := default true (.Site.Params.enableMediumZoom) }}
-{{- if eq $enableMediumZoom true -}}
-{{ $js := resources.Get "js/medium-zoom.js" }}
-{{ $secureJS := $js |  resources.Minify | resources.Fingerprint }}
-<script type="text/javascript"
-        src="{{ $secureJS.RelPermalink }}"
-        integrity="{{ $secureJS.Data.Integrity }}"
-        crossorigin="anonymous"></script>
-{{- end -}}
+<script type="text/javascript" src="{{ `js/medium-zoom.min.js` | absURL }}"></script>
+<script>
+	mediumZoom(document.querySelectorAll('div.post-content img'), {
+        background: '#fff'
+    });
+</script>
+<link rel="stylesheet" href="{{ `css/medium-zoom.css` | absURL }}" type="text/css">
