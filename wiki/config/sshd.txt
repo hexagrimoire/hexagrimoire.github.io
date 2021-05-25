@@ -1,0 +1,13 @@
+
+# sshでの直接ログインを禁止する
+PermitRootLogin no
+
+# 鍵による認証を許可
+PubkeyAuthentication yes
+AuthorizedKeysFile  .ssh/authorized_keys
+
+# パスワード認証
+PasswordAuthentication no
+
+# rhosts認証
+RhostsAuthentication no
