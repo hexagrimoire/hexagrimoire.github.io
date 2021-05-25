@@ -1,2 +1,2 @@
-# BlogDadederk
+# GadgetLogs 
 My personal blog.
