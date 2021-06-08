@@ -12,23 +12,24 @@ author = "hexagrimoire (UenoSouhei)"
 description = "hexagrimoire (UenoSouhei)"
 profilePicture = "images/4945590.png"
 readMore = true
+displayMode = "dark"
 disableThemeSwitcher = true
 keywords = ""
 
 
 ## Social links
 [[params.socialIcons]]
-icon = "fa-twitter"
+icon = "fab fa-twitter"
 title = "Twitter"
 url = "https://twitter.com/hexagrimoire"
 
 [[params.socialIcons]]
-icon = "fa-github"
+icon = "fab fa-github"
 title = "GitHub"
 url = "https://github.com/hexagrimoire"
 
 [[params.socialIcons]]
-icon = "fa-instagram"
+icon = "fab fa-instagram"
 title = "instagram"
 url = "https://www.instagram.com/hexagrimoire/"
 
