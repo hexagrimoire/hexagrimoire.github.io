@@ -14,7 +14,7 @@ profilePicture = "images/4945590.png"
 displayMode = "dark"
 disableThemeSwitcher = true
 keywords = ""
-
+readMore = true
 
 ## Social links
 [[params.socialIcons]]
