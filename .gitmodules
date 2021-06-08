@@ -2,3 +2,6 @@
 	path = public
 	url = git@github.com:dadederk/dadederk.github.io.git
 	branch = master
+[submodule "themes/anatole"]
+	path = themes/anatole
+	url = https://github.com/lxndrblz/anatole.git
