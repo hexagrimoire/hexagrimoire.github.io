@@ -2,6 +2,7 @@ baseURL = "https://hexagrimoire.github.io/"
 languageCode = "en-us"
 title = "GadgetLogs"
 theme = "anatole"
+enableEmoji = true
 
 # Parameters
 
@@ -11,6 +12,7 @@ author = "hexagrimoire (UenoSouhei)"
 description = "hexagrimoire (UenoSouhei)"
 profilePicture = "images/4945590.png"
 readMore = true
+disableThemeSwitcher = true
 keywords = ""
 
 
